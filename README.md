@@ -2,6 +2,8 @@
 
 To learn more about architect, click [here](https://arc.codes/). To learn more about AWS Amplify, click [here](https://docs.amplify.aws/).
 
+![](banner.jpg)
+
 ### Back end
 
 This project deploys a REST API built with Amazon DynamoDB, AWS Lambda, and Amazon API Gateway.
