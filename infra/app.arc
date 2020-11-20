@@ -16,9 +16,9 @@ posts
 posts
   type *String
 
-@aws
-profile default
-region us-east-1
+# @aws
+# profile default
+# region us-east-1
 
 @macros
 arc-macro-no-bucket
