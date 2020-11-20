@@ -72,3 +72,26 @@ const config = {
 
 export default config
 ```
+
+## Checking the endpoint
+
+You should be able run run curl commands against your endpoint:
+
+### Qerying posts
+
+```sh
+curl https://<app-id>.execute-api.us-east-1.amazonaws.com/posts 
+
+```
+
+### Creating a post
+
+```sh
+curl -d '{"post": {"postID":"001", "type":"blog", "title": "My first post", "content": "Hello world"}}' -H "Content-Type: application/json" -X POST https://<app-id>.execute-api.us-east-1.amazonaws.com/posts
+```
+
+### Getting a post by ID
+
+```sh
+curl https://<app-id>.execute-api.us-east-1.amazonaws.com/posts/001
+```

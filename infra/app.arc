@@ -2,7 +2,6 @@
 react-arc
 
 @http
-get /
 get /posts
 get /posts/:postID
 post /posts
