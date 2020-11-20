@@ -77,7 +77,7 @@ export default config
 
 You should be able run run curl commands against your endpoint:
 
-### Qerying posts
+### Querying posts
 
 ```sh
 curl https://<app-id>.execute-api.us-east-1.amazonaws.com/posts 
