@@ -73,6 +73,14 @@ const config = {
 export default config
 ```
 
+7. Running the app
+
+To run the app, run the `start` command from the root of the React app:
+
+```sh
+npm start
+```
+
 ## Checking the endpoint
 
 You should be able run run curl commands against your endpoint:
